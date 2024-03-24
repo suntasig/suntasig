@@ -17,7 +17,7 @@ if "telefono" not in información_personal:
     información_personal["telefono"] = "0987853470"
 
 # Eliminar la clave de edad
-información_personal.pop("edad", None)
+información_personal.pop("edad")
 
 # imprimir el diccionario final
 print("diccionario final")
