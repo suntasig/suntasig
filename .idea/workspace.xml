@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48916aa9-4374-4585-8a4f-bf6ec12d4a2f" name="Changes" comment="semana_16">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_notes.txt.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_notes.txt.py" afterDir="false" />
-    </list>
+    <list default="true" id="48916aa9-4374-4585-8a4f-bf6ec12d4a2f" name="Changes" comment="semana_16" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,6 +108,7 @@
       <workItem from="1711246355858" duration="701000" />
       <workItem from="1711937241763" duration="1768000" />
       <workItem from="1712799324300" duration="1092000" />
+      <workItem from="1717816667938" duration="233000" />
     </task>
     <task id="LOCAL-00001" summary="arreglos">
       <option name="closed" value="true" />
@@ -160,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711940911598</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="semana_16">
+      <option name="closed" value="true" />
+      <created>1717816830185</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1717816830185</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
