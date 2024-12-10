@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48916aa9-4374-4585-8a4f-bf6ec12d4a2f" name="Changes" comment="semana_16" />
+    <list default="true" id="48916aa9-4374-4585-8a4f-bf6ec12d4a2f" name="Changes" comment="Semana 1 elabore un archivo PDF, que compares los tipos de datos básicos y sus característica, de dos lenguajes de programación">
+      <change afterPath="$PROJECT_DIR$/CREAR PDF.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/semana_3.1/clasica.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEMANA 1/PDF.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,9 +59,12 @@
     &quot;Python.Deber-semana-12.executor&quot;: &quot;Run&quot;,
     &quot;Python.Deber_semana_14.executor&quot;: &quot;Run&quot;,
     &quot;Python.Funciones.executor&quot;: &quot;Run&quot;,
+    &quot;Python.PDF.executor&quot;: &quot;Run&quot;,
     &quot;Python.Tarea en_ clase.executor&quot;: &quot;Run&quot;,
     &quot;Python.Tarea_Funciones.executor&quot;: &quot;Run&quot;,
+    &quot;Python.clasica.executor&quot;: &quot;Run&quot;,
     &quot;Python.my_notes.txt.executor&quot;: &quot;Run&quot;,
+    &quot;Python.programa original.executor&quot;: &quot;Run&quot;,
     &quot;Python.semana_15_diccionario.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -66,7 +74,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.qodana&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -109,6 +117,23 @@
       <workItem from="1711937241763" duration="1768000" />
       <workItem from="1712799324300" duration="1092000" />
       <workItem from="1717816667938" duration="233000" />
+      <workItem from="1717816966800" duration="1209000" />
+      <workItem from="1717819519241" duration="8000" />
+      <workItem from="1718251971588" duration="1024000" />
+      <workItem from="1718254615788" duration="836000" />
+      <workItem from="1718343933312" duration="2858000" />
+      <workItem from="1718577127776" duration="273000" />
+      <workItem from="1718577517808" duration="309000" />
+      <workItem from="1718578621632" duration="63000" />
+      <workItem from="1718581312600" duration="880000" />
+      <workItem from="1718587846881" duration="617000" />
+      <workItem from="1726184863306" duration="17000" />
+      <workItem from="1726352725775" duration="14000" />
+      <workItem from="1733085896446" duration="58000" />
+      <workItem from="1733085995155" duration="34000" />
+      <workItem from="1733086181661" duration="121000" />
+      <workItem from="1733787613859" duration="1829000" />
+      <workItem from="1733790136633" duration="1195000" />
     </task>
     <task id="LOCAL-00001" summary="arreglos">
       <option name="closed" value="true" />
@@ -166,7 +191,39 @@
       <option name="project" value="LOCAL" />
       <updated>1717816830185</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="semana_16">
+      <option name="closed" value="true" />
+      <created>1717817018570</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1717817018570</updated>
+    </task>
+    <task id="LOCAL-00009" summary="semana_16">
+      <option name="closed" value="true" />
+      <created>1717817110889</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1717817110889</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Semana 1 elabore un archivo PDF, que compares los tipos de datos básicos y sus característica, de dos lenguajes de programación">
+      <option name="closed" value="true" />
+      <created>1733788645232</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1733788645232</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Semana 1 elabore un archivo PDF, que compares los tipos de datos básicos y sus característica, de dos lenguajes de programación">
+      <option name="closed" value="true" />
+      <created>1733788923585</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1733788923585</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,17 +252,21 @@
     <MESSAGE value="Funciones" />
     <MESSAGE value="semana_15" />
     <MESSAGE value="semana_16" />
-    <option name="LAST_COMMIT_MESSAGE" value="semana_16" />
+    <MESSAGE value="Semana 1 elabore un archivo PDF, que compares los tipos de datos básicos y sus característica, de dos lenguajes de programación" />
+    <option name="LAST_COMMIT_MESSAGE" value="Semana 1 elabore un archivo PDF, que compares los tipos de datos básicos y sus característica, de dos lenguajes de programación" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Proyectis_Programación$Tarea_Funciones.coverage" NAME="Tarea_Funciones Coverage Results" MODIFIED="1710116212318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Proyectis_Programación$Arreglos_multidimencionales.coverage" NAME="Arreglos_multidimencionales Coverage Results" MODIFIED="1708924077063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Proyectis_Programación$my_notes_txt.coverage" NAME="my_notes.txt Coverage Results" MODIFIED="1712800167528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Proyectis_Programación$Deber_semana_14.coverage" NAME="Deber_semana_14 Coverage Results" MODIFIED="1710725587249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Proyectis_Programación$Arreglo__multimedia.coverage" NAME="Arreglo_ multimedia Coverage Results" MODIFIED="1708974132970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Proyectis_Programación$Funciones.coverage" NAME="Funciones Coverage Results" MODIFIED="1710115541743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Proyectis_Programación$clasica.coverage" NAME="clasica Coverage Results" MODIFIED="1718577207630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/semana_3.1" />
     <SUITE FILE_PATH="coverage/Proyectis_Programación$Deber_semana_12.coverage" NAME="Deber-semana-12 Coverage Results" MODIFIED="1710116130879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Proyectis_Programación$programa_original.coverage" NAME="programa original Coverage Results" MODIFIED="1718581801283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/seman_3" />
     <SUITE FILE_PATH="coverage/Proyectis_Programación$semana_15_diccionario.coverage" NAME="semana_15_diccionario Coverage Results" MODIFIED="1711245859538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Proyectis_Programación$Tarea_en__clase.coverage" NAME="Tarea en_ clase Coverage Results" MODIFIED="1710045492495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Proyectis_Programación$Tarea_Funciones.coverage" NAME="Tarea_Funciones Coverage Results" MODIFIED="1710116212318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Proyectis_Programación$Arreglos_multidimencionales.coverage" NAME="Arreglos_multidimencionales Coverage Results" MODIFIED="1708924077063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Proyectis_Programación$Funciones.coverage" NAME="Funciones Coverage Results" MODIFIED="1710115541743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Proyectis_Programación$PDF.coverage" NAME="PDF Coverage Results" MODIFIED="1733788902138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SEMANA 1" />
   </component>
 </project>
